@@ -156,7 +156,7 @@ public class GTv12 {
 	public void testCreatesNextDate10() throws Throwable {
 	    NextDate nextDate0 = new NextDate(1723, 1723, 1723);
 	    String string0 = nextDate0.run(2, 28, 2000);
-	    assertEquals("3/1/2000", string0);
+	    assertEquals("2/29/2000", string0);
 	}
 
 	@Test(timeout = 4000)
